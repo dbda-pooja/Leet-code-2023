@@ -1,6 +1,8 @@
+--  Selecting All Columns of a Table
 Selecting All Columns of a Table
 ans : SELECT * from {table_name}
 
+-- Selecting Specific Columns of a Table
 Selecting Specific Columns of a Table
 ans : SELECT {column_1},{column_2} from {table_name}
 
@@ -10,6 +12,3 @@ ans : SELECT {column_1} new_column_name_1, {column_2} new_column_name_2 from {ta
 Preserving Case and Including Spaces in Column Aliases
 ans : SELECT {column_1} "new_column_name_1", {column_2} "new_column_name_2" from {table_name}
 
--- Selecting Data that Satisfies Specified Conditions
-Selecting Data for some specific Condition
-ans : select {column_1},{column_2} from {table_name} where {Condition_1}=true
